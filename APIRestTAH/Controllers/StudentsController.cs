@@ -1,6 +1,7 @@
 ﻿using Infrastructure.Contexts;
 using Infrastructure.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Migrations;
 using System;
 using System.Collections.Generic;
@@ -45,6 +46,16 @@ namespace APIRestTAH.Controllers
             context.SaveChanges();
             // CreatedAtRouteResult = funcion de ASP.Net para redireccionar lo que agrega 
             return new CreatedAtRouteResult("Student", new { id = studentModel.id }, studentModel);
+        }
+        [HttpPut("{id}")]
+        public ActionResult Put(int id, [FromBody] StudentsModels value)
+        {
+            if (id != value.id)
+                return BadRequest();
+
+            context.Entry(value).State = EntityState.Modified;
+            context.SaveChanges();
+            return Ok();
         }
     }
 }
