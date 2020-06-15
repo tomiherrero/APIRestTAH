@@ -26,7 +26,18 @@ namespace APIRestTAH.Controllers
         {
             return context.Student.ToList();
         }
+        [HttpGet("{id}", Name = "Student")]
+        public ActionResult<StudentsModels> Get(int id)
+        {
+            // FirstOrDefault = funcion de ASP.Net para ordenar por ID 
+            var student = context.Student.FirstOrDefault(x => x.id == id);
+            if (student == null)
+                return NotFound();
 
+
+
+            return student;
+        }
         [HttpPost]
         public ActionResult Post([FromBody] StudentsModels studentModel)
         {
