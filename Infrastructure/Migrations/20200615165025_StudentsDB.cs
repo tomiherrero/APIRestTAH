@@ -10,13 +10,13 @@ namespace Infrastructure.Migrations
                 name: "Student",
                 columns: table => new
                 {
-                    id = table.Column<int>(type: "int", nullable: false)
+                    id = table.Column<int>(nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    dni = table.Column<int>(type: "int", nullable: false),
-                    names = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    surnames = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    courses = table.Column<string>(type: "nvarchar(max)", nullable: true),
-                    years = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                    dni = table.Column<int>(nullable: false),
+                    names = table.Column<string>(nullable: true),
+                    surnames = table.Column<string>(nullable: true),
+                    courses = table.Column<string>(nullable: true),
+                    years = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {

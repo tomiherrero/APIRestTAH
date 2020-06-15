@@ -26,5 +26,14 @@ namespace APIRestTAH.Controllers
         {
             return context.Student.ToList();
         }
+
+        [HttpPost]
+        public ActionResult Post([FromBody] StudentsModels studentModel)
+        {
+            context.Student.Add(studentModel);
+            context.SaveChanges();
+            // CreatedAtRouteResult = funcion de ASP.Net para redireccionar lo que agrega 
+            return new CreatedAtRouteResult("Student", new { id = studentModel.id }, studentModel);
+        }
     }
 }
