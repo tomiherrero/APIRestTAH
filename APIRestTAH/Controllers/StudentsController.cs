@@ -57,5 +57,16 @@ namespace APIRestTAH.Controllers
             context.SaveChanges();
             return Ok();
         }
+        [HttpDelete("{id}")]
+        public ActionResult<StudentsModels> Delete(int id)
+        {
+            var student = context.Student.FirstOrDefault(x => x.id == id);
+            if (student == null)
+                return NotFound();
+
+            context.Student.Remove(student);
+            context.SaveChanges();
+            return student;
+        }
     }
 }
