@@ -1,0 +1,12 @@
+C:\Programacion V\APIRestTAH\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.deps.json
+C:\Programacion V\APIRestTAH\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csprojAssemblyReference.cache
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfoInputs.cache
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.AssemblyInfo.cs
+C:\Programacion V\APIRestTAH\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.json
+C:\Programacion V\APIRestTAH\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.runtimeconfig.dev.json
+C:\Programacion V\APIRestTAH\ApplicationCore\bin\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.csproj.CoreCompileInputs.cache
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.dll
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.pdb
+C:\Programacion V\APIRestTAH\ApplicationCore\obj\Debug\netcoreapp3.1\ApplicationCore.genruntimeconfig.cache

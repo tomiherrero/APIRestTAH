@@ -1,0 +1,12 @@
+C:\Programacion V\APIRestTAH\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.deps.json
+C:\Programacion V\APIRestTAH\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfoInputs.cache
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.AssemblyInfo.cs
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csprojAssemblyReference.cache
+C:\Programacion V\APIRestTAH\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.json
+C:\Programacion V\APIRestTAH\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.runtimeconfig.dev.json
+C:\Programacion V\APIRestTAH\Infrastructure\bin\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.csproj.CoreCompileInputs.cache
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.dll
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.pdb
+C:\Programacion V\APIRestTAH\Infrastructure\obj\Debug\netcoreapp3.1\Infrastructure.genruntimeconfig.cache
